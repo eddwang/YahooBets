@@ -4,7 +4,7 @@ Python project for sentiment analysis for r/WallStreetBets and YahooFinance, cre
 ## Description:
 This Python application uses yfinance, Python Reddit API Wrapper (PRAW), Plotly, and Pandas to parse and utilize data from [Yahoo Finance](https://finance.yahoo.com/) as well as [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets/). User is prompted for a stock ticker, which is then validated. The valid ticker is then used to parse through r/WallStreetBets and yfinance's data to determine sentiment of a stock based on a scale from 1.0-5.0 (as seen below). The yfinance and plotly libraries are then used to visualize stock opening, closing, high, low, as well as volume on a candlestick chart (which opens on localhost). Lastly, PRAW and yfinance libraries are used to find and select relevant posts on r/wallstreetbets and Yahoo Finance.
 
-![Stock Recommendation Chart from Investopedia](./images/recommendation_chart.png)
+![Stock Recommendation Chart from Investopedia](./images/stock_recommendation_chart.png)
 
 ![Stock Chart Image](./images/sample_stock_chart.png)
 
