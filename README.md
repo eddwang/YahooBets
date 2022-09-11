@@ -1,5 +1,5 @@
 # YahooBets
-Python project for sentiment analysis for r/WallStreetBets and YahooFinance, creating a stock chart with volume, and parsing for relevant news and posts
+Python project for sentiment analysis for r/WallStreetBets and Yahoo Finance, creating a stock chart with volume, and parsing for relevant news and posts
 
 ## Description:
 This Python application uses yfinance, Python Reddit API Wrapper (PRAW), Plotly, and Pandas to parse and utilize data from [Yahoo Finance](https://finance.yahoo.com/) as well as [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets/). 
