@@ -2,11 +2,23 @@
 Python project for sentiment analysis for r/WallStreetBets and YahooFinance, creating a stock chart with volume, and parsing for relevant news and posts
 
 ## Description:
-This Python application uses yfinance, Python Reddit API Wrapper (PRAW), Plotly, and Pandas to parse and utilize data from [Yahoo Finance](https://finance.yahoo.com/) as well as [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets/). User is prompted for a stock ticker, which is then validated. The valid ticker is then used to parse through r/WallStreetBets and yfinance's data to determine sentiment of a stock based on a scale from 1.0-5.0 (as seen below). The yfinance and plotly libraries are then used to visualize stock opening, closing, high, low, as well as volume on a candlestick chart (which opens on localhost). Lastly, PRAW and yfinance libraries are used to find and select relevant posts on r/wallstreetbets and Yahoo Finance.
+This Python application uses yfinance, Python Reddit API Wrapper (PRAW), Plotly, and Pandas to parse and utilize data from [Yahoo Finance](https://finance.yahoo.com/) as well as [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets/). 
 
-![Stock Recommendation Chart from Investopedia](./images/stock_recommendation_chart.png)
+User is prompted for a stock ticker, which is then validated. The valid ticker is then used to parse through r/WallStreetBets relevant posts as well as Yahoo Finance's data to determine sentiment of a stock based on a scale from 1.0-5.0 (as seen below). Keywords are used to indicate attitude towards user-input stock.
 
-![Stock Chart Image](./images/sample_stock_chart.png)
+<p align="center">
+  <img alt="Gif of sentiment analysis" src="https://media4.giphy.com/media/UsfytGNnxWbXo00y7a/giphy.gif">
+  </br>
+  <img height="250px" alt="Stock Recommendation Chart from Investopedia" src="./images/stock_recommendation_chart.png">
+</p>
+
+PRAW and yfinance libraries are used to find and select relevant posts on r/WallStreetBets as well as news from Yahoo Finance. Lastly, yfinance and plotly libraries are used to visualize stock opening, closing, high, low, as well as volume on a candlestick chart (which opens on localhost).
+
+<p align="center">
+  <img alt="Gif of news and post pulling from program" src="https://media3.giphy.com/media/SPjv5kiJDoLh8uP1CJ/giphy.gif">
+  </br>
+  <img height="300px" alt="Image of stock chart from plotly" src="./images/sample_stock_chart.png">
+</p>
 
 ## Table of Contents:
 * [Technologies](#technologies)
